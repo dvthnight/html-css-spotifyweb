@@ -11,6 +11,8 @@ body{
     border: 1px solid red;
 }
 
+/* main */
+
 main{
     flex-grow: 10;
     border: 3px solid orange;
@@ -18,7 +20,7 @@ main{
 }
 
 .side-bar{
-    width: 200px;
+    width: 230px;
     background-color: rgb(1, 0, 0);
     border: 2px dashed chocolate;
 }
@@ -35,8 +37,28 @@ main{
     border: 2px solid goldenrod;
 }
 
+/* footer */
+
 footer{
     height: 80px;
     background-color: rgb(36, 35, 35);
+    display: flex;
+    justify-content: space-between;
     border: 3px solid violet;
+}
+
+.foot-left{
+    max-width: 230px;
+    border: 3px solid rgb(0, 195, 255);
+}
+
+.foot-center{
+    max-width: 525px;
+    min-width: 190px;
+    border: 3px solid aquamarine;
+}
+
+.foot-right{
+    max-width: 230px;
+    border: 3px solid rgb(36, 173, 173);
 }
