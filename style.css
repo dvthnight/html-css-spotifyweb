@@ -4,3 +4,30 @@
     box-sizing: border-box;
 }
 
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+main{
+    flex-grow: 10;
+    border: 3px solid orange;
+    display: flex;
+}
+
+footer{
+    height: 70px;
+    border: 3px solid violet;
+}
+
+.side-bar{
+    width: 200px;
+    border: 2px dashed chocolate;
+}
+
+.main-content{
+    flex-grow: 8;
+    border: 2px dashed darksalmon;
+}
