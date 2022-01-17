@@ -19,15 +19,24 @@ main{
 
 footer{
     height: 70px;
+    background-color: rgb(36, 35, 35);
     border: 3px solid violet;
 }
 
 .side-bar{
     width: 200px;
+    background-color: rgb(1, 0, 0);
     border: 2px dashed chocolate;
 }
 
 .main-content{
     flex-grow: 8;
+    background-color: rgb(22, 24, 31);
     border: 2px dashed darksalmon;
+}
+
+.upgrade-bar{
+    background-color: rgb(11, 14, 19);
+    height: 70px;
+    border: 2px solid goldenrod;
 }
