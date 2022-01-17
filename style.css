@@ -41,21 +41,23 @@ main{
 /* footer */
 
 footer{
-    height: 80px;
+    height: 90px;
     background-color: rgb(36, 35, 35);
     display: flex;
     justify-content: space-between;
     color: white;
-    border: 3px solid violet;
+    column-gap: 30px;
+    /* border: 3px solid violet; */
 }
 
 /* foot left */
 
 .foot-left{
-    max-width: 230px;
+    width: 230px;
     display: flex;
     padding: 12px;
-    column-gap: 46px;
+    justify-content: space-between;
+    column-gap: 10px;
     /* border: 3px solid rgb(0, 195, 255); */
 }
 
@@ -88,12 +90,13 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    column-gap: 10px;
+    column-gap: 13px;
 }
 
 .cuore,.cartella{
     font-size: 16px;
-    padding: 2px;
+    height: 16px;
+    /* padding: 2px; */
 }
 
 .grey{
@@ -103,7 +106,7 @@ footer{
 /* foot center */
 
 .foot-center{
-    max-width: 320px;
+    width: 36vw;
     min-width: 190px;
     display: flex;
     flex-direction: column;
@@ -120,24 +123,34 @@ footer{
     /* border: 3px solid brown; */
 }
 
-.play-icon{
-    font-size: 25px;
+.icon-center-nav{
+    font-size: 15px;
 }
+
+.play-icon{
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+
 
 .time-bar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     column-gap: 15px;
-
     /* border: 3px solid burlywood; */
 }
 
-.bar-time{
+.bar{
     height: 3px;
     background-color: rgb(182, 181, 181);
     border-radius: 30px ;
-    width: 250px;
+}
+
+.bar-time{
+    width: 29vw;
+    min-width: 120px;
 }
 
 .time-start,.time-finish{
@@ -145,9 +158,22 @@ footer{
     font-size: 11px;
 }
 
+/* foot right */
 
 .foot-right{
-    max-width: 230px;
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    column-gap: 10px;
     /* border: 3px solid rgb(36, 173, 173); */
 }
 
+.right-bar{
+    width: 115px;    
+}
+
+.right-icon{
+    font-size: 12px;
+}
