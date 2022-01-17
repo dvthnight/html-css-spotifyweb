@@ -17,12 +17,6 @@ main{
     display: flex;
 }
 
-footer{
-    height: 70px;
-    background-color: rgb(36, 35, 35);
-    border: 3px solid violet;
-}
-
 .side-bar{
     width: 200px;
     background-color: rgb(1, 0, 0);
@@ -37,6 +31,12 @@ footer{
 
 .upgrade-bar{
     background-color: rgb(11, 14, 19);
-    height: 70px;
+    height: 90px;
     border: 2px solid goldenrod;
+}
+
+footer{
+    height: 80px;
+    background-color: rgb(36, 35, 35);
+    border: 3px solid violet;
 }
