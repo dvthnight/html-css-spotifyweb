@@ -12,6 +12,14 @@ body{
     border: 1px solid red;
 }
 
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
 /* main */
 
 main{
@@ -24,8 +32,63 @@ main{
     width: 230px;
     background-color: rgb(1, 0, 0);
     flex-shrink: 0;
+    color: rgb(154, 153, 153);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0 20px;
+    row-gap: 20px;
     border: 2px dashed chocolate;
 }
+
+.logo{
+
+}
+
+.logo img{
+   
+    width: 135px;
+}
+
+.navigazione li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+    padding-bottom: 10px;
+}
+
+.navigazione li:last-child{
+    padding-bottom: 0;
+}
+
+.navigazione li h4{
+    font-size: 12px;
+
+}
+.navigazione li img{
+    width: 25px;
+}
+
+.playlist{
+    flex-grow: 555555;
+}
+
+.crea-playlist{
+    padding: 10px 0;
+}
+
+.lista-playlist li{
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+.installa{
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(154, 153, 153);
+    font-size: 12px;
+}
+
+
 
 .main-content{
     flex-grow: 8;
