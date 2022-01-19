@@ -176,7 +176,7 @@ main{
 
 .main-song{
     height: 100%;
-    padding: 100px 20px 0 20px;
+    padding: 100px 50px 0 50px;
     overflow-y: scroll;
 
 }
@@ -212,10 +212,23 @@ main{
 
 .box-brani{
     color: white;
+
+}
+
+.box-card{
+    display: flex;
+    gap: 30px;
+    /* justify-content: center; */
+    flex-wrap: wrap;
 }
 
 .brani-card{
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 180px;
 }
 
 .img-album{
@@ -224,6 +237,15 @@ main{
 
 .titolo-categoria{
     font-size: 25px;
+}
+
+.titolo-album{
+    font-size: 15px;
+}
+
+.sottotitolo-album{
+    color: rgb(154, 153, 153);
+    margin-top: -5px;
 }
 
 
