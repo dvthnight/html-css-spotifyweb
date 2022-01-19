@@ -176,7 +176,7 @@ main{
 
 .main-song{
     height: 100%;
-    padding: 100px;
+    padding: 100px 20px 0 20px;
     overflow-y: scroll;
 
 }
@@ -186,6 +186,8 @@ main{
     display: flex;
     gap: 20px;
     justify-content: center;
+    height: 60px;
+    align-items: center;
 
 }
 
@@ -207,6 +209,25 @@ main{
     background-color: rgb(187, 255, 83);
     margin: 2px auto;
 }
+
+.box-brani{
+    color: white;
+}
+
+.brani-card{
+    padding-top: 20px;
+}
+
+.img-album{
+    width: 180px;
+}
+
+.titolo-categoria{
+    font-size: 25px;
+}
+
+
+
 
 /* footer */
 
