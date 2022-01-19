@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'DM Sans', sans-serif;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 li{
@@ -29,7 +29,7 @@ a{
 
 main{
     flex-grow: 10;
-    border: 3px solid orange;
+    /* border: 3px solid orange; */
     display: flex;
 }
 
@@ -42,7 +42,7 @@ main{
     flex-direction: column;
     padding: 20px;
     row-gap: 20px;
-    border: 2px dashed chocolate;
+    /* border: 2px dashed chocolate; */
 }
 
 
@@ -101,6 +101,11 @@ main{
     margin-right: 7px;
 }
 
+
+.lista-playlist{
+    overflow: auto;
+}
+
 .lista-playlist li{
     padding: 10px 0;
     font-size: 12px;
@@ -148,7 +153,7 @@ main{
     flex-grow: 8;
     background-color: rgb(22, 24, 31);
     position: relative;
-    border: 2px dashed darksalmon;
+    /* border: 2px dashed darksalmon; */
 }
 
 .upgrade-bar{
@@ -158,7 +163,7 @@ main{
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid goldenrod;
+    /* border: 2px solid goldenrod; */
 }
 
 .button-upgrade{
@@ -228,7 +233,7 @@ main{
 }
 
 .brani-card{
-    padding-top: 20px;
+    padding: 20px 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -278,6 +283,8 @@ footer{
     justify-content: space-between;
     color: white;
     column-gap: 30px;
+    position: relative;
+    z-index: 999999999;
     /* border: 3px solid violet; */
 }
 
