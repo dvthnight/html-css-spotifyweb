@@ -186,8 +186,9 @@ main{
     display: flex;
     gap: 20px;
     justify-content: center;
-    height: 60px;
-    align-items: center;
+    /* height: 60px; */
+    padding-top: 20px;
+    /* align-items: center; */
 
 }
 
@@ -210,8 +211,12 @@ main{
     margin: 2px auto;
 }
 
+
+
+
 .box-brani{
     color: white;
+
 
 }
 
@@ -237,6 +242,13 @@ main{
 
 .titolo-categoria{
     font-size: 25px;
+    padding-top: 20px;
+}
+
+.sottotitolo-categoria{
+    color: rgb(154, 153, 153);
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .titolo-album{
@@ -249,6 +261,11 @@ main{
     margin-top: -5px;
 }
 
+
+.circle-img{
+    border-radius: 55555555px;
+    overflow: hidden;
+}
 
 
 
