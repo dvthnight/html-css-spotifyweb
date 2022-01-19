@@ -22,7 +22,7 @@
             </div>
             <div class="navigazione">
                 <ul>
-                    <li>
+                    <li class="home">
                         <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M448 463.746h-149.333v-149.333h-85.334v149.333h-149.333v-315.428l192-111.746 192 110.984v316.19z" fill="rgb(154, 153, 153)"/></svg>
                         <h4>Home</h4>
                     </li>
@@ -80,10 +80,24 @@
         </aside>
         <div class="main-content">
             <div class="upgrade-bar">
-               
+               <button class="button-upgrade">Effettua l'upgrade</button>
             </div>
             <div class="main-song">
-                
+                <div class="nav-bar-song">
+                    <ul>
+                        <li><a href="#">In evidenza</a></li>
+                        <li><a href="#">Podcast</a></li>
+                        <li><a href="#">Classifiche</a></li>
+                        <li><a href="#">Generi e mood</a></li>
+                        <li><a href="#">Nuove uscite</a></li>
+                        <li><a href="#">scopri</a></li>
+                    </ul>
+                </div>
+                <div class="container-brani">
+                    <div class="box-brani">
+
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -136,7 +150,10 @@
                     0.25
                 </div>
 
-                <div class="bar-time bar"></div>
+                <div class="bar-time bar">
+                    <div class="current-bar"></div>
+                    <div class="cursore-bar"></div>
+                </div>
 
                 <div class="time-finish">
                     4.35
@@ -159,6 +176,7 @@
             </div>
 
             <div class="right-bar bar">
+                <div class="current-bar"></div>
                 
             </div>
         </div>
