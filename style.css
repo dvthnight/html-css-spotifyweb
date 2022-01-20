@@ -42,6 +42,7 @@ main{
     flex-direction: column;
     padding: 20px;
     row-gap: 20px;
+    flex-shrink: 0;
     /* border: 2px dashed chocolate; */
 }
 
@@ -176,7 +177,12 @@ main{
     text-transform: uppercase;
     position: absolute;
     top:15px;
-    right: 20px;
+    right: 30px;
+}
+
+.button-upgrade:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .main-song{
@@ -194,6 +200,8 @@ main{
     /* height: 60px; */
     padding-top: 20px;
     /* align-items: center; */
+    white-space: nowrap;
+    flex-wrap: wrap;
 
 }
 
@@ -205,6 +213,11 @@ main{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 15px;
+}
+
+.nav-bar-song li:hover{
+    color: white;
+    cursor: pointer;
 }
 
 .active-nav-bar-song::after{
@@ -243,6 +256,45 @@ main{
 
 .img-album{
     width: 180px;
+    position: relative;
+}
+
+.img-album::after{
+    content: "";
+    position: absolute;
+    display: block;
+    opacity: 0;
+    background-color: black;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.brani-card:hover .img-album::after{
+    opacity: 0.5;
+}
+
+.img-album img{
+    display: block;
+}
+
+/* .img-album:hover{
+
+} */
+
+.img-album i{
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    z-index: 999999;
+}
+
+.brani-card:hover i{
+    display: block;
 }
 
 .titolo-categoria{
