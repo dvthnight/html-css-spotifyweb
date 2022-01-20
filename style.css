@@ -64,6 +64,13 @@ main{
     padding-bottom: 10px;
 }
 
+.navigazione li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+
 .navigazione li:last-child{
     padding-bottom: 0;
 }
@@ -95,6 +102,11 @@ main{
     font-size: 15px;
 }
 
+.crea-playlist:hover{
+    color: white;
+    cursor: pointer;
+}
+
 .crea-playlist i{
     color: black;
     padding: 9px 10px;
@@ -102,9 +114,18 @@ main{
     margin-right: 7px;
 }
 
+ .crea-playlist:hover i{
+    background-color: white;
+}
+
 
 .lista-playlist{
     overflow: auto;
+}
+
+.lista-playlist li:hover{
+    color: white;
+    cursor: pointer;
 }
 
 .lista-playlist li{
@@ -119,6 +140,11 @@ main{
     display: flex;
     column-gap: 10px;
     margin-bottom: -5px;
+}
+
+.installa:hover{
+    color: white;
+    cursor: pointer;
 }
 
 .installa svg{
