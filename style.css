@@ -81,14 +81,31 @@ main{
     font-size: 12px;
 
 }
-.navigazione li svg{
+.navigazione li img{
     width: 25px;
+    opacity: 0.5;
+}
+
+.navigazione li:hover img{
+    opacity: 1;
+}
+
+.home::before{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 30px;
+    background-color: rgb(187, 255, 83);
+    position: absolute;
+    left: 0;
+    
 }
 
 .home{
-    border-left: 2px solid rgb(187, 255, 83);
-    padding-left: 20px;
-    margin-left: -22px;
+    color: white;
+}
+#home-img{
+    opacity: 1;
 }
 
 .playlist{
@@ -151,9 +168,14 @@ main{
     cursor: pointer;
 }
 
-.installa svg{
+.installa img{
     width: 15px;
     height: 15px;
+    opacity: 0.5;
+}
+
+.installa:hover img{
+    opacity: 1;
 }
 
 

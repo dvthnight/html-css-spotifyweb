@@ -59,6 +59,9 @@
     .side-bar{
         width: 50px;
         padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .logo{
@@ -81,10 +84,10 @@
         border-bottom: none;
     }
 
-    .installa svg{
-        width: 40px;
-        height: 40px;
-        padding: 0 5px;
+    .installa img{
+        width: 30px;
+        height: 20px;
+        /* padding: 0 10px; */
     }
 
     .installa h4{
