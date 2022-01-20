@@ -1,9 +1,32 @@
-@media screen and (max-width: 878px) {
-    
+@media screen and (max-width: 1220px) {
+    .box-card{
+        gap: 2%;
+    }
+
+    .brani-card{
+        width: calc(94%/4);
+    }
 }
 
-@media screen and (max-width: 639px){
+@media screen and (max-width:878px) {
+    .box-card{
+        gap: 2%;
+    }
 
+    .brani-card{
+        width: calc(96%/3);
+    }
+}
+
+
+@media screen and (max-width: 639px){
+    .box-card{
+        gap: 2%;
+    }
+
+    .brani-card{
+        width: calc(98%/2);
+    }
 }
 
 @media screen and (max-width: 552px) {
@@ -28,5 +51,47 @@
 
     .box-song img{
         width: 30px;
+    }
+
+
+    /* sidebar */
+
+    .side-bar{
+        width: 50px;
+        padding: 10px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .logo-small{
+        display: block;
+    }
+
+    .navigazione li h4{
+        display: none;
+    }
+
+    .playlist{
+        display: none;
+    }
+
+    .installa{
+        border-bottom: none;
+    }
+
+    .installa svg{
+        width: 40px;
+        height: 40px;
+        padding: 0 5px;
+    }
+
+    .installa h4{
+        display: none;
+    }
+
+    .utente h3{
+        display: none;
     }
 }

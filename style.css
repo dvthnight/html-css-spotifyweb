@@ -31,6 +31,7 @@ main{
     flex-grow: 10;
     /* border: 3px solid orange; */
     display: flex;
+    height: calc(100vh - 90px);
 }
 
 .side-bar{
@@ -47,8 +48,9 @@ main{
 }
 
 
-.logo{
-
+.logo-small{
+    display: none;
+    width: 30px;
 }
 
 .logo img{
@@ -90,7 +92,8 @@ main{
 }
 
 .playlist{
-    flex-grow: 555555;
+    flex-grow: 1;
+    overflow: hidden;
 }
 
 .titolo-playlist{
@@ -121,6 +124,7 @@ main{
 
 .lista-playlist{
     overflow: auto;
+    height: 80%;
 }
 
 .lista-playlist li:hover{
@@ -213,7 +217,7 @@ main{
 
 .main-song{
     height: 100%;
-    padding: 100px 50px 0 50px;
+    padding: 100px 25px 0;
     overflow-y: scroll;
 
 }
@@ -266,7 +270,7 @@ main{
 
 .box-card{
     display: flex;
-    gap: 30px;
+    gap: 2%;
     /* justify-content: center; */
     flex-wrap: wrap;
 }
@@ -277,11 +281,11 @@ main{
     flex-direction: column;
     gap: 10px;
     align-items: center;
-    width: 180px;
+    width: calc(90%/6);
 }
 
 .img-album{
-    width: 180px;
+    width: 100%;
     position: relative;
 }
 
@@ -467,6 +471,7 @@ footer{
 
 .icon-center-nav i:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 
@@ -533,6 +538,11 @@ footer{
     padding: 12px;
     column-gap: 10px;
     /* border: 3px solid rgb(36, 173, 173); */
+}
+
+.right-icon:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .right-bar{
