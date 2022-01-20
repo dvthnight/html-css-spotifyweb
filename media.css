@@ -27,6 +27,15 @@
     .brani-card{
         width: calc(98%/2);
     }
+
+    .img-album::after{
+        display: none;
+    }
+
+    .brani-card:hover i{
+        display: none;
+    }
+    
 }
 
 @media screen and (max-width: 552px) {
