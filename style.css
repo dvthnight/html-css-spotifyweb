@@ -402,6 +402,11 @@ footer{
     font-weight: bold;
 }
 
+.foot-left-text p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .left-icon-song{
     display: flex;
     align-items: center;
@@ -415,8 +420,20 @@ footer{
     /* padding: 2px; */
 }
 
+
+
 .grey{
     color:rgb(103, 103, 103);
+}
+
+.cuore:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.cartella:hover{
+    color: white;
+    cursor: pointer;
 }
 
 /* foot center */
@@ -478,6 +495,14 @@ footer{
 
 }
 
+.bar:hover .current-bar{
+    background-color: rgb(187, 255, 83);
+}
+
+.bar:hover{
+    cursor: pointer;
+}
+
 .cursore-bar{
     height: 10px;
     width: 10px;
@@ -508,6 +533,16 @@ footer{
 
 .right-bar{
     width: 115px;
+    position: relative;
+}
+
+
+.right-bar .cursore-bar{
+    display: none;
+}
+
+.right-bar:hover .cursore-bar{
+    display: block;
 }
 
 .right-icon{
