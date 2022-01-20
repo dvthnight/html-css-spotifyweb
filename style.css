@@ -465,6 +465,10 @@ footer{
     padding: 0 10px;
 }
 
+.icon-center-nav i:hover{
+    transform: scale(1.1);
+}
+
 
 
 .time-bar{
